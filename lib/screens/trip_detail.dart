@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../location.dart';
 
 class TripDetail extends StatelessWidget {
