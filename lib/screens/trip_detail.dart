@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../location.dart';
 
 class TripDetail extends StatelessWidget {
@@ -85,7 +86,7 @@ class TripDetail extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      primary: const Color(0xfffdaf01),
+                      backgroundColor: const Color(0xfffdaf01),
                     ),
                     child: const Text(
                       'Book this trip',
