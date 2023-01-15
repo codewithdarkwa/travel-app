@@ -58,6 +58,7 @@ class Home extends StatelessWidget {
               const Icon(
                 Icons.location_on,
                 color: Colors.white,
+                size: 27,
               ),
               const Expanded(
                 child: Padding(
