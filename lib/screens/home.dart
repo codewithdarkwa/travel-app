@@ -106,7 +106,7 @@ class Home extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => TripDetail(
+                      builder: (context) => TripDetail(
                         trip_location: location[index],
                       ),
                     ),
